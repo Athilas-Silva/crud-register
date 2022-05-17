@@ -1,5 +1,9 @@
 # Crud de usuários
 
+<div align="center">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">  <img src="	https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
+</div>
+
 ## 🔖 Sobre
 
 Este projeto foi um desafio proposto por uma vaga de emprego como desenvolvedor web. O desafio proposto foi de criar um CRUD, contendo campos obrigatórios para o preenchimento dos dados exigidos e não aceitando valores nulos.
