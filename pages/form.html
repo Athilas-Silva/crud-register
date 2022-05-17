@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Registro</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header>
+        <h1>EmpregosAqui</h1>
+
+        <a class="button" href="../index.html">Inicio</a>
+    </header>
+
+    <main>
+        <form class="form" method="POST" action="#" onsubmit="registrar(event)">
+            <input class="register" type="text" id="nome_completo" name="nome_completo" placeholder="Nome" required>
+
+            <input class="register" type="text" id="cpf" name="cpf" placeholder="CPF" autocomplete="off" maxlength="14" onkeyup="maskCpf()" required>
+
+            <input class="register" type="email" id="email" name="email" placeholder="email@gmail.com" required>
+            
+            <input class="register" type="text" id="telefone_cel" name="telefone_cel" placeholder="Ex: 11 9 99999999" maxlength="11" required>
+            
+            <button class="btn" type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/form.js"></script>
+</body>
+</html>
